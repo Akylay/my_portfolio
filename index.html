@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media.css">
+
+</head>
+
+<body>
+
+<header class="header fixed">
+    <div class="container d-flex justify-between align-center">
+            <div class="hamb">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        <a href="#hero" class="header__logo">AKYLAY</a>
+        <nav class="header__nav d-flex justify-between align-center">
+            <a href="#hero" class="header__link">Главная</a>
+            <a href="#about" class="header__link">Обо мне</a>
+            <a href="#portfolio" class="header__link">Портфолио</a>
+            <a href="#contact" class="header__link">Контакты</a>
+        </nav>
+    </div>
+</header>
+<div class="popup">
+    <nav class="popup__nav d-flex align-center">
+        <a href="#hero" class="popup__link">Главная</a>
+        <a href="#about" class="popup__link">Обо мне</a>
+        <a href="#portfolio" class="popup__link">Портфолио</a>
+        <a href="#contact" class="popup__link">Контакты</a>
+    </nav>
+
+</div>
+
+<section class="hero " id="hero">
+    <div class="container d-flex justify-between align-center ">
+        <div class="hero__info">
+            <h2 class="hero__title">Привет!</h2>
+            <h1 class="hero__name">Меня зовут Акылай</h1>
+            <p class="hero__desc">Я, junior frontend developer из Москвы.<br>Верю в
+                постоянное обучение, которое все больше и больше улучшает мои навыки программирования!!! </p>
+            <button class="hero__btn">
+                <a href="#contact">Связаться со мной</a>
+            </button>
+        </div>
+        <div class="hero__img">
+            <button class="section__ellipse hero__ellipse">
+                <div class="hero__photo">
+                    <img src="./images/my_photo.png" alt="">
+                </div>
+            </button>
+        </div>
+    </div>
+</section>
+
+<section class="about">
+    <div class="container">
+        <div class="skills">
+            <div class="skills__grid">
+                <div class="skills__card">
+                    <div class="skills__card_icon">
+                        <img src="./images/html.png" alt="">
+                    </div>
+                    <h3 class="skills__card_text">HTML5</h3>
+                </div>
+                <div class="skills__card">
+                    <div class="skills__card_icon">
+                        <img src="./images/css.png" alt="">
+                    </div>
+                    <h3 class="skills__card_text">CSS3</h3>
+                </div>
+                <div class="skills__card">
+                    <div class="skills__card_icon">
+                        <img src="./images/sass.png" alt="">
+                    </div>
+                    <h3 class="skills__card_text">SASS/SCSS</h3>
+                </div>
+                <div class="skills__card">
+                    <div class="skills__card_icon">
+                        <img src="./images/java-script.png" alt="">
+                    </div>
+                    <h3 class="skills__card_text">JAVASCRIPT (ES6+)</h3>
+                </div>
+                <div class="skills__card">
+                    <div class="skills__card_icon ">
+                        <img src="./images/bem.jpg" alt="" class="skills__card_icon-bem">
+                    </div>
+                    <h3 class="skills__card_text">БЭМ</h3>
+                </div>
+                <div class="skills__card">
+                    <div class="skills__card_icon">
+                        <img src="./images/react.png" alt="">
+                    </div>
+                    <h3 class="skills__card_text">REACT.JS</h3>
+                </div>
+                <div class="skills__card">
+                    <div class="skills__card_icon">
+                        <img src="./images/axios.jpg" alt="">
+                    </div>
+                    <h3 class="skills__card_text">Axios/Fetch</h3>
+                </div>
+                <div class="skills__card">
+                    <div class="skills__card_icon">
+                        <img src="./images/bootstrap.png" alt="">
+                    </div>
+                    <h3 class="skills__card_text">BOOTSTRAP</h3>
+                </div>
+                <div class="skills__card">
+                    <div class="skills__card_icon">
+                        <img src="./images/layout.png" alt="">
+                    </div>
+                    <h3 class="skills__card_text">Адаптивная верстка (FIGMA)</h3>
+                </div>
+                <div class="skills__card" id="about">
+                    <div class="skills__card_icon">
+                        <img src="./images/github.png" alt="">
+                    </div>
+                    <h3 class="skills__card_text">GITHUB</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="about__info" >
+            <div class="about__me">
+                <h3 class="about__me_title">Обо мне</h3>
+                <p>Привет всем! Итак, вы уже знаете, что меня зовут Акылай. Немного о себе: 22 года,
+                    замужем, живу в г. Москва, Россия. Почему программирование?
+                    Все элементарно - мне это нравится, профессия будущего, благодаря которой я могу обеспечить себя и
+                    осуществить свою мечту. Легко увлекаюсь работой в которой четко виден результат, поэтому и выбрала
+                    веб-разработку. На данный момент я специализируюсь на front-end разработке. Мне нравится писать код
+                    с нуля и воплощать идеи в жизнь в браузере. Меня вдохновляет создание отличной работы с людьми,
+                    которые так же увлечены созданием чего-то потрясающего, как и я. Хочу найти работу с возможностью и
+                    дальше развиваться и узнавать что-то новое в этой области.</p>
+            </div>
+            <div class="about__education">
+                <h3 class="about__education_title">Образование</h3>
+                <p>2018-2022гг. - Бакалавриат<br>  <br> Кыргызский Национальный Университет, г. Бишкек, Кыргызстан.
+                <br><br>  Кыргызско-Европейский Факультет, направление- экономика и управление.</p>
+            </div>
+            <div class="about__experience">
+                <h3 class="about__experience_title">Опыт</h3>
+                <p> Январь - август 2022г. <br> Стажировка <br><br><b> Nevis Tech Company</b> <br><br> -Разработка продуктов, которые пользуются клиенты и сотрудники компании <br>  -Разработка React-компонентов<br> -Работа через Github</p>
+            </div>
+
+            <button class="section__ellipse about__ellipse_yellow"></button>
+            <button class="section__ellipse about__ellipse_grey"></button>
+        </div>
+    </div>
+</section>
+
+<section class="portfolio" id="portfolio">
+    <div class="container">
+        <h2 class="portfolio__title">Портфолио</h2>
+        <div class="portfolio__grid">
+            <div class="portfolio__card ">
+                <div class="portfolio__card_img">
+                    <a href="https://bb-trading.vercel.app/" target="_blank">
+                        <img src="./images/bbtrading.png" alt="">
+                    </a>
+                </div>
+                <div class="portfolio__card_content">
+                    <h3 class="portfolio__card_content-title">B&B_trading</h3>
+                    <p class="portfolio__card_content-desc">Сайт курса по трейдинга на американской бирже. Сайт полностью написан на фреймворке React, использовала компоненты, пропсы, события, axios. </p>
+                    <button class="portfolio__card_content-btn">
+                        <a href="https://bb-trading.vercel.app/" target="_blank">Посмотреть сайт</a>
+                    </button>
+                    <a href="https://github.com/Akylay/BandB-trading" class="portfolio__card_content-link" target="_blank">Посмотреть код</a>
+                </div>
+            </div>
+
+            <div class="portfolio__card">
+                <div class="portfolio__card_img portfolio__card_img-calc">
+                    <a href="https://akylay.github.io/calc/" target="_blank">
+                        <img src="./images/calc.png" alt="">
+                    </a>
+                </div>
+                <div class="portfolio__card_content">
+                    <h3 class="portfolio__card_content-title">Калькулятор</h3>
+                    <p class="portfolio__card_content-desc">Калькулятор написан с помощью HTML, CSS, Javascript</p>
+                    <button class="portfolio__card_content-btn">
+                        <a href="https://akylay.github.io/calc/" target="_blank">Посмотреть сайт</a>
+                    </button>
+                    <a href="https://github.com/Akylay/calc" target="_blank" class="portfolio__card_content-link">Посмотреть
+                        код</a>
+                </div>
+            </div>
+
+            <div class="portfolio__card">
+                <div class="portfolio__card_img">
+                    <a href="https://akylay.github.io/KGtrans/" target="_blank">
+                        <img src="./images/KGtrans.png" alt="">
+                    </a>
+                </div>
+                <div class="portfolio__card_content">
+                    <h3 class="portfolio__card_content-title">KG_trans</h3>
+                    <p class="portfolio__card_content-desc">KG_trans - это прокат электронных самокатов. Сайт написан с помощью HTML, CSS, Javascript</p>
+                    <button class="portfolio__card_content-btn">
+                        <a href="https://akylay.github.io/KGtrans/" target="_blank">Посмотреть сайт</a>
+                    </button>
+                    <a href="https://github.com/Akylay/KGtrans" class="portfolio__card_content-link" target="_blank">Посмотреть
+                        код</a>
+                </div>
+            </div>
+
+            <div class="portfolio__card">
+                <div class="portfolio__card_img">
+                    <a href="https://akylay.github.io/bello/" target="_blank">
+                        <img src="./images/bello.png" alt="">
+                    </a>
+                </div>
+                <div class="portfolio__card_content">
+                    <h3 class="portfolio__card_content-title">Bello</h3>
+                    <p class="portfolio__card_content-desc">Данный сайт написан с помощью HTML. Дизайн взят из Figma</p>
+                    <button class="portfolio__card_content-btn">
+                        <a href="https://akylay.github.io/bello/" target="_blank">Посмотреть сайт</a>
+                    </button>
+                    <a href="https://github.com/Akylay/bello" target="_blank" class="portfolio__card_content-link">Посмотреть
+                        код</a>
+                </div>
+            </div>
+
+            <div class="portfolio__card">
+                <div class="portfolio__card_img portfolio__card_img-timer">
+                    <a href="https://akylay.github.io/timer/" target="_blank">
+                        <img src="./images/timer.png" alt="">
+                    </a>
+                </div>
+                <div class="portfolio__card_content">
+                    <h3 class="portfolio__card_content-title">Timer</h3>
+                    <p class="portfolio__card_content-desc">Timer написан с помощью HTML, CSS, Javascript</p>
+                    <button class="portfolio__card_content-btn">
+                        <a href="https://akylay.github.io/timer/" target="_blank">Посмотреть сайт</a>
+                    </button>
+                    <a href="https://github.com/Akylay/timer" target="_blank" class="portfolio__card_content-link">Посмотреть
+                        код</a>
+                </div>
+            </div>
+
+            <div class="portfolio__card">
+                <div class="portfolio__card_img">
+                    <a href="https://akylay.github.io/indicorp/" target="_blank">
+                        <img src="./images/indicorp.png" alt="">
+                    </a>
+                </div>
+                <div class="portfolio__card_content">
+                    <h3 class="portfolio__card_content-title">Indicorp</h3>
+                    <p class="portfolio__card_content-desc">Данный сайт написан с помощью HTML. Дизайн взят из Figma</p>
+                    <button class="portfolio__card_content-btn">
+                        <a href="https://akylay.github.io/indicorp/" target="_blank">Посмотреть сайт</a>
+                    </button>
+                    <a href="https://github.com/Akylay/indicorp" target="_blank" class="portfolio__card_content-link">Посмотреть
+                        код</a>
+                </div>
+            </div>
+
+            <div class="portfolio__card">
+                <div class="portfolio__card_img">
+                    <a href="https://akylay.github.io/konstuct/" target="_blank">
+                        <img src="./images/konstract.png" alt="">
+                    </a>
+                </div>
+                <div class="portfolio__card_content">
+                    <h3 class="portfolio__card_content-title">Konstract</h3>
+                    <p class="portfolio__card_content-desc">Данный сайт написан с помощью HTML. Дизайн взят из Figma</p>
+                    <button class="portfolio__card_content-btn">
+                        <a href="https://akylay.github.io/konstuct/" target="_blank">Посмотреть сайт</a>
+                    </button>
+                    <a href="https://github.com/Akylay/konstuct" target="_blank" class="portfolio__card_content-link">Посмотреть
+                        код</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <div class="container d-flex justify-between">
+        <div class="contact__left">
+            <h3 class="contact__title">Контакты</h3>
+            <p class="contact__desc">Если заинтересованы в сотрудничестве со мной, здесь представлена моя контактная
+                информация. Предпочтительным способом связи является электронная почта.</p>
+        </div>
+        <div class="contact__right">
+            <div class="contact__info d-flex align-center">
+                <div class="contact__info_icon">
+                    <img src="./images/telephone-call.png" alt="" >
+                </div>
+                <p class="contact__info_title">Телефон:</p>
+                <a href="tel:+79153868454" class="contact__info_link" target="_blank"> +7 (915) 386-84-54</a>
+            </div>
+            <div class="contact__info d-flex align-center">
+                <div class="contact__info_icon">
+                    <img src="./images/email.png" alt="" >
+                </div>
+                <p class="contact__info_title">Эл. почта:</p>
+                <a href="mailto:akylaymusaevaa@gmail.com" target="_blank" class="contact__info_link"> akylaymusaevaa@gmail.com</a>
+            </div>
+            <div class="contact__info d-flex align-center">
+                <div class="contact__info_icon">
+                    <img src="./images/whatsapp.png" alt="" >
+                </div>
+                <p class="contact__info_title">WhatsApp:</p>
+                <a href="https://skobelkin.ru/whatsapp/996779547252?text=Здравствуйте!+Я+по+поводу+сотрудничества!)" target="_blank" class="contact__info_link"> +(996) 779-54-72-52</a>
+            </div>
+            <div class="contact__info d-flex align-center">
+                <div class="contact__info_icon">
+                    <img src="./images/telegram.png" alt="" >
+                </div>
+                <p class="contact__info_title">Телеграмм:</p>
+                <a href="https://web.telegram.org/z/#5191249056" class="contact__info_link" target="_blank"> +7 (915) 386-84-54</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <p class="footer__text">Сделано мной вручную © 2022</p>
+</footer>
+
+
+<script src="./script.js"></script>
+</body>
+
+
+</html>

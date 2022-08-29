@@ -1,0 +1,661 @@
+@import url(./style.scss);
+
+@media (max-width: 1221px) {
+  .container{
+    max-width: 1090px;
+  }
+
+  .skills {
+
+    &__grid{
+      grid-column-gap: 12px;
+    }
+
+    &__card {
+      width: 230px;
+      height: 230px;
+      padding: 40px;
+    }
+  }
+
+  .about__education{
+    right: 40px;
+  }
+
+  .about__experience{
+    left: 40px;
+  }
+
+  .portfolio__card{
+    width: 520px;
+    height: 360px;
+  }
+}
+/*----------------------------------------------*/
+@media (max-width: 1130px) {
+  .container{
+    max-width: 1010px;
+  }
+
+  .header__link{
+    margin-left: 100px;
+  }
+
+  .hero{
+
+    &__name{
+      font-size: 60px;
+      width: inherit;
+    }
+
+    &__title{
+      font-size: 40px;
+    }
+
+    &__desc{
+      font-size: 20px;
+      width: inherit;
+    }
+  }
+
+  .skills__card {
+    width: 211px;
+    height: 211px;
+
+    &_text{
+      font-size: 16px;
+    }
+  }
+
+  .about__me{
+    width: 460px;
+    height: 710px;
+    font-size: 18px;
+
+    &_title{
+      font-size: 40px;
+    }
+  }
+
+  .about__education{
+    width: 280px;
+    height: 420px;
+    font-size: 16px;
+
+    &_title{
+      font-size: 25px;
+    }
+  }
+
+  .about__experience{
+    width: 280px;
+    height: 420px;
+    font-size: 16px;
+
+    &_title{
+      font-size: 25px;
+    }
+  }
+
+  .portfolio__card{
+    width: 480px;
+  }
+
+  .contact__info_title {
+    font-size: 18px;
+  }
+};
+/*----------------------------------------------*/
+@media (max-width: 1025px) {
+  .container{
+    max-width: 900px;
+  }
+
+  .section__ellipse{
+    width: 500px;
+    height: 500px;
+  }
+
+  .hero__photo {
+    width: 200px;
+    height: 280px;
+  }
+
+  .skills__card {
+    width: 184px;
+    height: 184px;
+    padding: 40px 0;
+
+
+  }
+
+  .about__education , .about__ellipse_yellow{
+    right: 0;
+  }
+
+  .about__experience, .about__ellipse_grey{
+    left: 0;
+  }
+
+  .portfolio__grid{
+    grid-template-columns: 1fr;
+  }
+
+  .portfolio__card{
+    width: 720px;
+    margin: 0 auto;
+
+    &_img{
+      width: 400px;
+
+      &-calc{
+        width: 235px;
+      }
+    }
+  }
+
+  .contact__right{
+    width: 60%;
+  }
+}
+
+/*----------------------------------------------*/
+@media (max-width: 920px) {
+  .container{
+    max-width: 770px;
+  }
+
+
+  .header__link{
+    margin-left: 50px;
+  }
+  .hero{
+    &__photo {
+      height: 260px;
+      margin-left: 75px;
+    }
+
+    &__name{
+      font-size: 55px;
+      line-height: 50px;
+    }
+  }
+
+  .section__ellipse{
+    width: 400px;
+    height: 400px;
+    border: 30px solid #e29500;
+  }
+
+  .skills__card{
+    width: 151px;
+    height: 151px;
+
+    &_icon{
+      width: 40px;
+      height: 40px;
+    }
+
+    &_text{
+      font-size: 13px;
+    }
+  }
+
+  .about__me{
+    width: 370px;
+    height: 677px;
+    font-size: 16px;
+    padding: 50px;
+  }
+
+  .about {
+
+    &__education {
+      width: 237px;
+      height: 345px;
+      font-size: 15px;
+      padding: 30px;
+      top: -100px;
+
+      &_title {
+        width: 160px;
+        font-size: 22px;
+      }
+    }
+
+    &__experience {
+      width: 237px;
+      height: 345px;
+      font-size: 15px;
+      padding: 30px;
+      bottom: -100px;
+    }
+
+    &__ellipse_grey {
+      border: 50px solid #d5d2d2;
+      width: 500px;
+      height: 500px;
+      top: -150px;
+    }
+
+    &__ellipse_yellow {
+      width: 500px;
+      height: 500px;
+      border: 50px solid #e29500;
+      top: 290px;
+    }
+  }
+}
+
+/*----------------------------------------------*/
+@media (max-width: 780px) {
+  .container{
+    max-width: 650px;
+  }
+
+  .hero {
+    & .container{
+      display: flex;
+      flex-direction: column;
+    }
+    &__info{
+      margin-bottom: 40px;
+    }
+  }
+
+  .skills{
+
+    &__grid{
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    &__card {
+      width: 185px;
+      height: 160px;
+    }
+  }
+
+  .about {
+
+    &__me {
+      width: 480px;
+      height: 480px;
+    }
+
+    &__education {
+      width: 290px;
+      height: 280px;
+      top: -240px;
+    }
+
+    &__experience{
+      width: 290px;
+      height: 280px;
+      bottom: -250px;
+    }
+
+    &__ellipse_yellow {
+      top: 230px;
+    }
+
+    &__ellipse_grey {
+      border: 50px solid #d5d2d2;
+      width: 500px;
+      height: 500px;
+      top: -270px;
+    }
+  }
+
+  .portfolio__card {
+    width: 550px;
+  }
+
+  .contact{
+    & .container{
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__left{
+      width: 100%;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    &__right{
+      width: 100%;
+    }
+  }
+}
+
+/*----------------------------------------------*/
+
+@media (max-width: 650px) {
+  .container{
+    max-width: 520px;
+  }
+
+  .header {
+    &__nav {
+      display: none;
+    }
+
+    &__logo{
+      font-size: 20px;
+    }
+  }
+
+  .hamb{
+    display: block;
+    padding: 10px 20px;
+    cursor: pointer;
+
+    &.active{
+      & .bar {
+        &:nth-child(2) {
+          opacity: 0;
+        }
+
+        &:nth-child(1) {
+          transform: translateY(8px) rotate(45deg);
+        }
+
+        &:nth-child(3) {
+          transform: translateY(-8px) rotate(-45deg);
+        }
+      }
+    }
+  }
+
+  .bar{
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #e29500;
+    transition: .2s;
+
+    &:not(:last-child){
+      margin-bottom: 6px;
+    }
+  }
+  .popup{
+    position: fixed;
+    top: 85px;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgb(74 74 74 / 90%) -53.38%, rgb(0 0 0 / 90%) 100%);
+    z-index: 1000;
+    display: flex;
+    transition: .3s;
+
+    &.open{
+      left: 0;
+    }
+
+    &__nav{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 20px auto;
+    }
+
+    &__link{
+      color: #d5cfcf;
+      font-size: 20px;
+      font-weight: 400;
+      padding: 10px 0;
+      width: 100%;
+      text-align: center;
+      transition: .3s;
+
+      &:hover{
+        color: #e29500;
+        background-color: #4d4d4d;
+      }
+    }
+  }
+
+  body.noscroll{
+    overflow: hidden;
+  }
+
+  .skills__card {
+    width: 143px;
+    height: 143px;
+    padding: 30px 0;
+  }
+
+  .about__me_title{
+    font-size: 33px;
+    width: 140px;
+  }
+  .about__ellipse_grey, .about__ellipse_yellow{
+    display: none;
+  }
+
+  .portfolio__card{
+    width: 480px;
+    height: 330px;
+  }
+}
+/*----------------------------------------------*/
+@media (max-width: 520px) {
+  .container{
+    max-width: 400px;
+  }
+
+  .header__link{
+    font-size: 16px;
+  }
+  .hero{
+
+    &__title{
+      font-size: 35px;
+    }
+
+    &__name{
+      font-size: 45px;
+    }
+
+    &__desc{
+      font-size: 18px;
+    }
+  }
+  .skills{
+
+    &__grid{
+      grid-template-columns: 1fr 1fr ;
+    }
+
+    &__card{
+      width: 176px;
+    }
+  }
+
+  .about{
+    &__me {
+      width: 345px;
+      height: 640px;
+      padding: 30px;
+      margin:  80px auto 560px;
+    }
+
+    &__education{
+      top: 600px;
+    }
+
+    &__experience{
+      bottom: -510px;
+
+      &_title{
+        width: 90px;
+      }
+    }
+  }
+
+  .portfolio__card {
+    width: 330px;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+    &_img {
+      width: 280px;
+      height: 200px;
+
+      &-calc{
+        width: 150px;
+      }
+    }
+
+    &_content{
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+
+  .contact{
+
+    &__title{
+      font-size: 30px;
+    }
+
+    &__desc{
+      font-size: 18px;
+    }
+
+    &__info{
+      &_title{
+        font-size: 13px;
+      }
+
+      &_link{
+        font-size: 11px;
+      }
+    }
+  }
+
+  .footer__text{
+    font-size: 11px;
+  }
+}
+
+/*----------------------------------------------*/
+
+@media (max-width: 400px) {
+  .container{
+    max-width:310px ;
+  }
+
+  .header__logo{
+    font-size: 18px;
+  }
+
+  .hero{
+
+    &__title{
+      font-size: 30px;
+    }
+
+    &__name{
+      font-size: 35px;
+    }
+
+    &__desc{
+      font-size: 16px;
+      line-height: 23px;
+    }
+
+    &__btn{
+      width: 180px;
+      height: 40px;
+      font-size: 16px;
+    }
+
+    .hero{
+
+      &__ellipse{
+        width: 310px;
+        height: 310px;
+      }
+
+      &__photo {
+        height: 190px;
+        margin-left: 55px;
+        width: 140px;
+      }
+    }
+
+  }
+
+  .skills__card{
+    width: 135px;
+    height: 135px;
+  }
+
+  .about{
+
+    &__me{
+      width: 290px;
+      height: 690px;
+      font-size: 15px;
+      margin: 80px auto 650px;
+    }
+
+    &__education {
+      width: 220px;
+      height: 320px;
+      top: 655px;
+      font-size: 14px;
+      padding: 25px;
+    }
+
+    &__experience {
+      bottom: -600px;
+      width: 220px;
+      height: 320px;
+      font-size: 14px;
+      padding: 25px;
+    }
+  }
+
+  .portfolio__card{
+    width: 290px;
+
+    &_img{
+      width: 270px;
+
+      &-calc{
+        width: 150px;
+      }
+    }
+  }
+
+  .portfolio__title{
+    font-size: 40px;
+  }
+
+  .contact {
+    &__desc{
+      font-size: 15px;
+    }
+    &__info {
+      &_icon {
+        width: 20px;
+        height: 20px;
+      }
+
+      &_title {
+        font-size: 12px;
+      }
+
+      &_link {
+        font-size: 10px;
+      }
+    }
+  }
+}
+/*----------------------------------------------*/
