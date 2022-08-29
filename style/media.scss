@@ -357,7 +357,7 @@
         }
 
         &:nth-child(1) {
-          transform: translateY(8px) rotate(45deg);
+          transform: translateY(10px) rotate(45deg);
         }
 
         &:nth-child(3) {
@@ -497,7 +497,7 @@
 
   .portfolio__card {
     width: 330px;
-    height: 430px;
+    height: 460px;
     display: flex;
     flex-direction: column;
     padding: 20px;

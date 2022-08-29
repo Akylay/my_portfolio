@@ -300,7 +300,7 @@
     opacity: 0;
   }
   .hamb.active .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
+    transform: translateY(10px) rotate(45deg);
   }
   .hamb.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
@@ -421,7 +421,7 @@
 
   .portfolio__card {
     width: 330px;
-    height: 430px;
+    height: 460px;
     display: flex;
     flex-direction: column;
     padding: 20px;
